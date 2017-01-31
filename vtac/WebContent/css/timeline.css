@@ -1,0 +1,59 @@
+@CHARSET "ISO-8859-1";
+
+.moreEvents{
+	text-align: center;
+    border-radius: 45px;
+    font-size: 25px;
+    font-family: serif;
+    width: 76px;
+    padding-bottom: 16px;
+    background-color: #f1f1f1;
+    margin: 0px 0px;
+	border: solid 5px #f1f1f1;    
+    
+}
+
+.moreEvents:hover{
+	border: solid 5px #2149da;
+	cursor: pointer;
+}
+
+.hiddenEvent{
+	display: none;
+}
+
+@media (min-width: 768px){
+.moreEvents {
+    margin: 0px auto;
+	font-size: 52px;
+	width: 140px;    
+}
+}
+
+
+.timeline li.yearHeader{
+    min-height: 40px;
+    margin: 30px;
+    text-align: center;
+    font-size: 50px;
+    background-color: #304a91;
+    color: white;
+    border-radius: 13px;
+    text-align: left;
+    padding-left: 15px;
+    cursor:pointer;
+    -webkit-transition: all .3s;
+
+}
+.timeline li.yearHeader:hover{
+    background-color: #495b8d;
+	font-size: 55px;
+}
+
+.yearHeader i{
+	font-size: 1em;
+	float: right;
+    padding: 10px;	
+}
+
+

@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+
+.freeEstimatOffer{
+	position: fixed;
+    top: 20%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    z-index: 40;
+    border-bottom-right-radius: 22px;
+    -webkit-transition: all .5;
+}
+.freeEstimatOffer:hover{
+	    position: fixed;
+    top: 20%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    z-index: 40;
+    border-bottom-right-radius: 22px;
+}
+
+.freeEstimatOffer h2{
+	 margin: 4px 0;
+	
+}
+
+.freeEstimatOffer h4{
+	 margin: 2px 0;
+	
+}

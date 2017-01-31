@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;vtac/WebContent/img/DSC01089.JPG&apos; to &apos;background1.JPG&apos;" description="Rename resource &apos;DSC01089.JPG&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/img/DSC01089.JPG" name="background1.JPG" stamp="1485794816850" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;vtac/WebContent/img/background1.JPG&apos; to &apos;background1.jpg&apos;" description="Rename resource &apos;background1.JPG&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/img/background1.JPG" name="background1.jpg" stamp="1485794970708" updateReferences="true"/>
+</session>

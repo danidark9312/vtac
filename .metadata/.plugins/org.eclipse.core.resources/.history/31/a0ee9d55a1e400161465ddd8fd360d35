@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+
+.freeEstimatOffer{
+	 position: fixed;
+    top: 20%;
+    padding: 10px;
+	
+}
+
+.freeEstimatOffer h2{
+	 margin: 4px 0;
+	
+}
+
+.freeEstimatOffer h4{
+	 margin: 2px 0;
+	
+}

@@ -1,0 +1,64 @@
+@CHARSET "ISO-8859-1";
+
+@font-face {
+	
+    font-family: myFirstFont;
+    src: url(font/slick.woff);
+	}
+	/*for small devices*/
+	.slick-prev:before, .slick-next:before{
+	color:black
+	}
+	
+	
+	.slick-carousel img{
+	width: 100%;
+	height: 300px;
+	}
+	
+	
+	.slick-carousel-nav img{
+	width: 90px;
+	height: 90px;
+	}
+	
+	.slick-carousel div{
+		text-align: center;
+	}
+	
+	/*for medium size screen*/
+	
+	@media (min-width : 450px){
+	.slick-carousel img{
+	
+	height: 400px;
+	}
+	
+	
+	.slick-carousel-nav img{
+	width: 160px;
+	height: 160px;
+	}
+	
+	.slick-carousel div{
+		text-align: center;
+	}
+	}
+	/*for big screen*/
+	@media (min-width : 728px){
+	.slick-carousel img{
+	height: 600px;
+	}
+	
+	
+	.slick-carousel-nav img{
+	width: 190px;
+	height: 190px;
+	}
+	
+	
+	}
+	
+	
+	
+	

@@ -1,0 +1,6 @@
+$(document).ready(function(){
+	setTimeout(function(){
+		$(".freeEstimatOffer").show('slow');	
+	},2000)
+	
+});

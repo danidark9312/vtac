@@ -1,0 +1,66 @@
+@CHARSET "ISO-8859-1";
+
+
+.freeEstimatOffer{
+	position: fixed;
+    top: 20%;
+    padding: 8px;
+    background-color: red;
+    color: white;
+    z-index: 40;
+    border-bottom-right-radius: 22px;
+    border: solid 3px rgba(0, 0, 0, 0);
+    -webkit-transition: all .5s;
+}
+.freeEstimatOffer:hover{
+	    cursor: pointer;
+	    border: solid 3px rgb(0, 0, 0);
+}
+
+.freeEstimatOffer h2{
+	 margin: 4px 0;
+	
+}
+
+.freeEstimatOffer h4{
+	 margin: 2px 0;
+	
+}
+.freeEstimatOffer a{
+	colo:white;
+	
+}
+
+
+
+@media (min-width:950px){
+.freeEstimatOffer{
+	position: fixed;
+    top: 20%;
+    padding: 8px;
+    background-color: red;
+    color: white;
+    z-index: 40;
+    border-bottom-right-radius: 22px;
+    border: solid 3px rgba(0, 0, 0, 0);
+    -webkit-transition: all .5s;
+}
+.freeEstimatOffer:hover{
+	    cursor: pointer;
+	    border: solid 3px rgb(0, 0, 0);
+}
+
+.freeEstimatOffer h2{
+	 margin: 4px 0;
+	
+}
+
+.freeEstimatOffer h4{
+	 margin: 2px 0;
+	
+}
+.freeEstimatOffer a{
+	colo:white;
+	
+}
+}

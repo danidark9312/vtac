@@ -1,0 +1,6 @@
+$(document).ready(function(){
+	setTimeout(function(){
+		$(".freeEstimatOffer").slideDown();	
+	},2000)
+	
+});
