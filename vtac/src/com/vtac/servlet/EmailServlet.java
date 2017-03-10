@@ -47,10 +47,10 @@ public class EmailServlet extends HttpServlet {
 	
 	private void sendEmail(String name,String phone,String email, String textMessage){
 		  
-	      String to = "danielgm9312@hotmail.com";
+	      String to = "vitaliano.duran@vtacinc.com";
 	      
-	      final String from = "daniel.gutierrez@solucionesfuturas.com";
-
+	      final String from = "vitavtac@gmail.com";
+	      final String passFrom = "vito1234";
 	      
 	      Properties properties = System.getProperties();
 	      properties.setProperty("mail.smtp.host", "smtp.gmail.com");
@@ -62,9 +62,9 @@ public class EmailServlet extends HttpServlet {
 	      Session session = Session.getInstance(properties,
 	    		  new javax.mail.Authenticator() { 
 	    			protected PasswordAuthentication getPasswordAuthentication() {
-	    				return new PasswordAuthentication(from, "danithebest");
+	    				return new PasswordAuthentication(from, passFrom);
 	    			}
-	    		  });
+	    	});
 
 
 	      try {
