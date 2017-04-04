@@ -1,0 +1,53 @@
+.news p{
+	text-align: left;
+}
+
+.news{
+	display: none;
+	padding: 8px;
+    padding-top: 30px;
+    border: solid gray;
+    margin: 0 2px;
+    text-align: center;
+    background-color: white;
+    margin-top: 25px;	
+}
+
+.news img{
+	padding: 6px;
+}
+
+.row img{
+	width: 100%;
+}
+
+
+@media(min-width: 700px){
+	.news p{
+	}
+	.news{
+	display: block;
+}
+
+.row img{
+	width: 420px;
+}
+
+.news img{
+	
+}
+	
+}
+
+.news.showOnMovil{
+	display: block;
+}
+
+
+.container.sideBorder .row{
+	padding: 10px 4px;
+}
+
+.container.sideBorder .row .imageCenter{
+	text-align: center;
+}

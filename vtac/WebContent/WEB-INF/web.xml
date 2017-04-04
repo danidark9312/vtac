@@ -44,8 +44,20 @@
     <servlet-name>RedirectServlet</servlet-name>
     <servlet-class>com.vtac.servlet.RedirectServlet</servlet-class>
   </servlet>
+  <servlet>
+    <description></description>
+    <display-name>DrainClean</display-name>
+    <servlet-name>DrainClean</servlet-name>
+    <servlet-class>com.vtac.servlet.DrainCleanServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
     <servlet-name>RedirectServlet</servlet-name>
     <url-pattern>/underpinning</url-pattern>
   </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>DrainClean</servlet-name>
+    <url-pattern>/drainClean</url-pattern>
+  </servlet-mapping>
+  
 </web-app>

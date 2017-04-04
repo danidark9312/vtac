@@ -17,12 +17,36 @@
 	padding: 6px;
 }
 
+
+.video-underpinning video{
+	width: 100%
+}
+
+.row img{
+	width: 100%;
+}
+
+.wideAdd img{
+	width: 100%
+}
+
 @media(min-width: 700px){
 	.news p{
-		
 	}
 	.news{
 	display: block;
+}
+
+.row img{
+	width: 420px;
+}
+
+.wideAdd img{
+	width: 100%
+}
+
+.video-underpinning video{
+	width: auto;
 }
 
 .news img{

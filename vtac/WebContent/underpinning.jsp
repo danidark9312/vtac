@@ -87,6 +87,12 @@
     <section id="underpinning" class="bg-light-gray">
     
     <div class="row">
+    
+    <div class="col-lg-12 text-center">
+						<h2 class="section-heading">Underpinning Basement</h2>
+						<h3 class="section-subheading text-muted">Increase Home Value</h3>
+					</div>
+    
 <!--     left news panel -->
 		<div class="col-md-2" style="padding-left: 40px;">
 			<div class="news">
@@ -142,10 +148,19 @@
 		<div class="col-md-8">
 			<div class="container sideBorder">
 				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading">Underpinning Basement</h2>
-						<h3 class="section-subheading text-muted">Increase Home Value</h3>
+					<div class="col-lg-12 text-center video-underpinning">
+						<video controls > <source
+							src="video/underpinningAnimation2.mp4" type="video/mp4"> <source
+							src="video/underpinningAnimation2.ogg" type="video/ogg"> Your browser does not
+						support the video tag.
+						</video>
 					</div>
+				</div>
+				<h3 class="section-heading" style="text-align: center;">
+					<a href="contact.jsp"> Schedule a visit now! </a>
+				</h3>
+				<div class="row">
+					
 
 					
 						<div class="col-md-6">
@@ -160,14 +175,14 @@
 						</div>
 						<div class="col-md-6 imageCenter">
 							<img src="img/underpinning/underpinning1.jpg"
-								style="width: 420px">
+								>
 						</div>
 					
 				</div>
 
 				<div class="row">
 					<div class="col-md-6 imageCenter">
-						<img src="img/underpinning/underpinning3.jpg" style="width: 420px">
+						<img src="img/underpinning/underpinning3.jpg">
 					</div>
 					<div class="col-md-6">
 						<p>The most established form of basement underpinning uses a
@@ -257,7 +272,12 @@
 							<p>We have equipment of high technology and performance for
 								the cleaning and maintenance of the sewer line</p>
 						
-						<h3><a href="contact.jsp">
+						<h3>
+						<a href="drainClean">
+						More info
+						</a>
+						<br/>
+						<a href="contact.jsp">
 						Get contact now !
 						</a>
 						</h3>
