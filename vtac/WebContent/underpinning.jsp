@@ -46,12 +46,12 @@
 		height: 156px;
 		}
 	
-		.container.sideBorder p{
+		.sideBorder p{
 	    font-size: 20px;
 	    
 	    }
 	    
-	    .container.sideBorder{
+	    .sideBorder{
 	        border-left: solid gray;
 	        border-right: solid gray;
 	    }	
@@ -146,7 +146,7 @@
 		</div>
 		<!--     main information -->
 		<div class="col-md-8">
-			<div class="container sideBorder">
+			<div class="sideBorder">
 				<div class="row">
 					<div class="col-lg-12 text-center video-underpinning">
 						<video controls > <source

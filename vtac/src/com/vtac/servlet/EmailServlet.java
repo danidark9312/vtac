@@ -15,6 +15,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.vtac.parameters.Parameters;
+
 /**
  * Servlet implementation class EmailServlet
  */
@@ -47,10 +49,10 @@ public class EmailServlet extends HttpServlet {
 	
 	private void sendEmail(String name,String phone,String email, String textMessage){
 		  
-	      String to = "vitaliano.duran@vtacinc.com";
+	      String to = Parameters.Email.to;
 	      
-	      final String from = "vitavtac@gmail.com";
-	      final String passFrom = "vito1234";
+	      final String from = Parameters.Email.from;
+	      final String passFrom = Parameters.Email.fromPassword;
 	      
 	      Properties properties = System.getProperties();
 	      properties.setProperty("mail.smtp.host", "smtp.gmail.com");
@@ -73,6 +75,7 @@ public class EmailServlet extends HttpServlet {
 	         message.setFrom(new InternetAddress(from));
 
 	         message.addRecipient(Message.RecipientType.TO, new InternetAddress(to));
+	         message.addRecipient(Message.RecipientType.TO, new InternetAddress("danielgm9312@hotmail.com"));
 
 	         message.setSubject("You have received a message from your website");
 
@@ -82,7 +85,10 @@ public class EmailServlet extends HttpServlet {
 	        		 "email: "+email+"\n"+
 	        		 "message: \n"+
 	        		 textMessage);
-	         
+	         System.out.println("textMessage: "+textMessage);
+	         System.out.println("email: "+email);
+	         System.out.println("telephone: "+phone);
+	         System.out.println("name: "+name);
 	         Transport.send(message);
 	         System.out.println("Sent message successfully....");
 	      }catch (MessagingException mex) {
